@@ -86,9 +86,16 @@ button {
 #feature-first {
     background: linear-gradient(168deg, #ffffff 55%, #00FFAD 0);
 }
-
 #feature-last {
     background: #00FFAD;
+}
+
+#feature-sec {
+    background: linear-gradient(168deg, #ffffff 55%, pink 0);
+}
+
+#feature-sec-last {
+    background: pink;
 }
 
 /********** price table **********/
@@ -159,4 +166,12 @@ button {
     #banner h1 {
         font-size: 3.6rem;
     }
+}
+
+
+
+@media only screen and (max-width: 577px) {
+  .brand img {
+    max-height: 30px;
+  }
 }
